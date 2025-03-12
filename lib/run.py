@@ -1,7 +1,7 @@
 from models import session, Role, Audition
 
 #Creating role
-role2 = Role("Tyler Durden")
+role2 = Role(character_name = "Tyler Durden")
 session.add(role2)
 session.commit()
 
